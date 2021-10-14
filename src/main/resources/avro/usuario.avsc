@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "Usuario",
+  "namespace": "br.com.zup.poc.avro",
+  "fields": [
+    {
+      "name": "nome",
+      "type": "string",
+      "doc": "Nome Completo"
+    },
+    {
+      "name": "cpf",
+      "type": "string",
+      "doc": "Cadastro de Pessoa Física - 000.000.000-00"
+    },
+    {
+      "name": "endereco",
+      "type": "string",
+      "doc": "Endereço Completo."
+    }
+  ]
+}
